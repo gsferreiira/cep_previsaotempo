@@ -7,7 +7,24 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-    
+    <header>
+        <h1>
+            Previsão do tempo com base no seu CEP
+        </h1>
+        <p>Para utilizar o serviço, por favor, insira seu CEP abaixo:</p>
+        
+    </header>
+    <main>
+        <input type="number" id="cepInput" placeholder="Digite seu CEP">
+        <button id="buscarBtn">Buscar</button>
+        <div id="endereco"></div>
+        <div id="previsao"></div>
+        <div id="mensagem"></div>
+        <div id="erro"></div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://gsferreiira.vercel.app/" target="_blank">Gabriel Ferreira dos Santos</a></p>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
